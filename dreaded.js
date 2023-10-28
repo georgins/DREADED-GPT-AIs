@@ -39,7 +39,7 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
         : "";
     var budy = typeof m.text == "string" ? m.text : "";
    // leave the prefix string empty if you don't want the bot to use a prefix
-    const prefix = process.env.PREFIX || '';
+    const prefix = process.env.PREFIX || '!';
 const Heroku = require("heroku-client");  
  const appname = process.env.APP_NAME || '';
  const herokuapi = process.env.HEROKU_API;
@@ -77,9 +77,9 @@ const botname = process.env.BOTNAME || 'DREADED BOT';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR || 'fortunatus';
+    const author = process.env.STICKER_AUTHOR || '𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 🤖';
     const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254114018035'
+const dev = process.env.DEV || '923195832822'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
@@ -95,10 +95,10 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
      const groupAdmin = m.isGroup ? await getGroupAdmins(participants) : ""; 
      const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : false; 
      const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : false;
-const admin = process.env.ADMIN_MSG || 'Are you an admin?';
+const admin = process.env.ADMIN_MSG || 'Bitch...You are not an admin🚮';
     const group = process.env.GROUP_ONLY_MSG || 'Is this a group chat?';
     const botAdmin = process.env.BOT_ADMIN_MSG || 'Am I an admin?'
-    const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
+    const NotOwner = process.env.NOT_OWNER_MSG || 'Do you know 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 🤖?';
 
 const runtime = function (seconds) { 
  seconds = Number(seconds); 
@@ -136,7 +136,7 @@ if (budy.startsWith('>')) {
  } 
  
 if (autobio === 'TRUE'){ 
- client.updateProfileStatus(`This bot is active 24/7`).catch(_ => _) 
+ client.updateProfileStatus(`𝚸𝚪𝚯𝐉𝚵𝐂𝚻 𝐒𝚰𝚪𝚳 is busy counting seconds 😅`).catch(_ => _) 
          } 
  
 
@@ -232,7 +232,7 @@ if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b
       switch (command) {
       case "help":
         case "menu":
-let cap = `┌───═[ ${botname} ]═──▸
+let cap = `┌───═[ 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 🤖 ]═──▸
 
 ▯ Hello ${m.pushName}
 This is a simple WhatsApp Bot.
@@ -285,8 +285,8 @@ Below is my command list.
 ▮➣Compile-c++
 ▮➣Script
 ▮➣Owner
-▮➣Dreaded
-▮➣Termux
+▮➣Sirm
+▮➣Twitter
 ▮➣Vars
 ┬│▸
 │╰────────────··
@@ -1096,7 +1096,7 @@ case "ping": case "speed": {
 
 case "alive": { 
   
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/d6dab955fbaa42fce2280.jpg' }, caption: `Hello ${m.pushName}, Dreaded is active\n\nActive for:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\nYou can also interact with our online chatbot built with html and JavaScript with API integration.\n\nLink is given below:\n\nhttps://quantumlab.ru.eu.org/`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/W7jRgtk.mp4' }, caption: `Hello ${m.pushName}, 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 🤖 is active\n\nActive for:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\nYou can also interact with our online chatbot built with html and JavaScript with API integration.\n\nLink is given below:\n\nhttps://quantumlab.ru.eu.org/`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
@@ -1238,18 +1238,18 @@ case "movie":
  break;
  
           case "script": case "repo": case "sc": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c75efecf7f0aef851fc02.jpg' }, caption: `You can deploy this bot using the github link below!\n\nhttps://github.com/Fortunatusmokaya/DREADED-GPT-AI\n\nYou can link dreaded bot without scanning qr using the pairing method in this repo below:\n\nhttps://github.com/Fortunatusmokaya/DREADED-PAIRING\n\nFork and give us a star ✨.\n\nAre you having difficulties deploying this bot? Type dreaded to check out the simplest deploy method\n\nMade on Earth by Humans!` }, {quoted: m}); 
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/7knZ1hz.mp4' }, caption: `Made on Earth by Humans!` }, {quoted: m}); 
   
  break; 
 
-case "tutorial": case "dreaded": case "hshhs": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c75efecf7f0aef851fc02.jpg' }, caption: `DEPLOY TUTORIAL\nStep 1 - Linking the bot\n\nLINK1: https://github.com/Fortunatusmokaya/DREADED-GPT-AI\nLINK2: https://github.com/Fortunatusmokaya/DREADED-PAIRING\n\n -On your preferred terminal clone LINK2 using git clone.\n\n -Create directory of the cloned repo using cd DREADED-PAIRING\n\n -Install node modules from package.json using npm install\n\n -Delete session folder and start bot using rm -rf session && node index.js\n\n -You will be prompted to enter the phone number to link and after that the pairing code will be displayed on the terminal.\n\n -Copy and paste it in the "Link with phone number section. Bingo! You will receive a file creds.json in the bots account!\n\n ------Step 2 - Actual deploy-------\n\n -Create a GitHub account and fork the repo in LINK1 above.\n\nUpload the creds.json file to the dreaded1 folder in your fork\n\n -Connect your repo to any affordable cloud host site e.g heroku or panel. You will need to add buildpacks if necessary.\n\nGood luck. Any issues contact owner!\n\nNOTE:\n\n -Frequently sync your fork with the main repo to keep up with necessary changes and modifications.\n - All Heroku Variables For Dreaded can be found in the .env file in the main repo. You can change them using setvar/getvar commands!\n\nGracefully Made on Earth by Humans! 🥀` }, {quoted: m}); 
+case "tutorial": case "Sirm": case "hshhs": 
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/PH4TAdU.mp4' }, caption: `Wow you have just mentioned my name ,you can easily reach me via +923195832822` }, {quoted: m}); 
   
 break;
-case "termux":
-let termux = `pkg install nodejs\n\npkg install git\n\npkg install ffmpeg\n\ngit clone https://github.com/Fortunatusmokaya/DREADED-PAIRING\n\ncd DREADED-PAIRING\n\nnpm install\n\nrm -rf session && node index.js\n\nEnter number to get corresponding pairing code.`
-let qx = await client.sendMessage(from, {text: termux}, {quoted:m})
-await client.sendMessage(from, {text: 'Copy paste and run this commands line by line on termux to link your account without scanning qr'}, {quoted: qx})
+case "twitter":
+let twitter = `https://twitter.com/NSirm5?s=09'`
+let qx = await client.sendMessage(from, {text: twitter}, {quoted:m})
+await client.sendMessage(from, {text: 'Always remember to ask for a follow back 🥱'}, {quoted: qx})
 break;
           // OWNER COMMANDS
 
