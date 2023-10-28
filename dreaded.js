@@ -315,7 +315,7 @@ Below is my command list.
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./menu.mp4'),
+                        video: { url:'https://i.imgur.com/SM63lWM.mp4'},
                         caption: cap,
                         gifPlayback: true
                     }, {
