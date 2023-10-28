@@ -285,7 +285,6 @@ Below is my command list.
 ▮➣Compile-c++
 ▮➣Script
 ▮➣Owner
-▮➣Sirm
 ▮➣Twitter
 ▮➣Vars
 ┬│▸
