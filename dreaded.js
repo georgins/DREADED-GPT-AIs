@@ -191,7 +191,7 @@ const response = await openai.createChatCompletion({
 if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b' + badword.join('\\b|\\b') + '\\b')).test(body.toLowerCase())) {
             
      client.groupParticipantsUpdate(from, [sender], 'remove')
-            reply("Removed\n\nBot Owner Prohibits Use Of Bad Words In The Bot Presence!")
+            reply("F**k off bitch 🚮\n\nBot Owner Prohibits Use Of Bad Words In The Bot Presence!")
             
         
                                                    }
@@ -208,7 +208,7 @@ if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b
                    participant: kid 
                 } 
              }).then(() => client.groupParticipantsUpdate(m.chat, [kid], 'remove')); 
- client.sendMessage(m.chat, {text:`Removed\n\n@${kid.split("@")[0]} sending group links is prohibited by Bot Owner!`, contextInfo:{mentionedJid:[kid]}}, {quoted:m}); 
+ client.sendMessage(m.chat, {text:`F**k off🚮\n\n@${kid.split("@")[0]} sending group links is prohibited by Bot Owner!`, contextInfo:{mentionedJid:[kid]}}, {quoted:m}); 
        }   
   
   
