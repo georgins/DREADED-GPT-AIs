@@ -136,7 +136,7 @@ if (budy.startsWith('>')) {
  } 
  
 if (autobio === 'TRUE'){ 
- client.updateProfileStatus(`𝚸𝚪𝚯𝐉𝚵𝐂𝚻 𝐒𝚰𝚪𝚳 is busy counting seconds 😅, sorry in advance I wont reply 😌`).catch(_ => _) 
+ client.updateProfileStatus(`𝚸𝚪𝚯𝐉𝚵𝐂𝚻 𝐒𝚰𝚪𝚳 is busy counting seconds 😅, sorry in advance I wont reply 😌chat here with AI 🦄`).catch(_ => _) 
          } 
  
 
