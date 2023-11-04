@@ -39,13 +39,13 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
         : "";
     var budy = typeof m.text == "string" ? m.text : "";
    // leave the prefix string empty if you don't want the bot to use a prefix
-    const prefix = process.env.PREFIX || '.';
+    const prefix = process.env.PREFIX || '&';
 const Heroku = require("heroku-client");  
  const appname = process.env.APP_NAME || '';
  const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
-const autobio = process.env.AUTOBIO || 'TRUE';
+const autobio = process.env.AUTOBIO || 'FALSE';
 const botname = process.env.BOTNAME || 'DREADED BOT';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
@@ -85,7 +85,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'TRUE';
    const bad = process.env.BAD_WORD || 'fuck';
-    const autoreadrecord = process.env.AUTOREAD_AND_TYPE || 'TRUE';
+    const autoreadrecord = process.env.AUTOREAD_AND_TYPE || 'FALSE';
     const badword = bad.split(",");
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
     // Group
@@ -95,7 +95,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
      const groupAdmin = m.isGroup ? await getGroupAdmins(participants) : ""; 
      const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : false; 
      const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : false;
-const admin = process.env.ADMIN_MSG || 'Bitch...You are not an admin🚮';
+const admin = process.env.ADMIN_MSG || 'Bitch...You are not an admin here🚮';
     const group = process.env.GROUP_ONLY_MSG || 'Is this a group chat?';
     const botAdmin = process.env.BOT_ADMIN_MSG || 'Am I an admin?'
     const NotOwner = process.env.NOT_OWNER_MSG || 'Do you know 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 🤖?';
