@@ -314,7 +314,7 @@ Below is my command list.
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: { url:'https://i.imgur.com/SM63lWM.mp4'},
+                        video: { url:'https://i.imgur.com/VCwI13h.mp4'},
                         caption: cap,
                         gifPlayback: true
                     }, {
