@@ -39,7 +39,7 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
         : "";
     var budy = typeof m.text == "string" ? m.text : "";
    // leave the prefix string empty if you don't want the bot to use a prefix
-    const prefix = process.env.PREFIX || '&';
+    const prefix = process.env.PREFIX || '.';
 const Heroku = require("heroku-client");  
  const appname = process.env.APP_NAME || '';
  const herokuapi = process.env.HEROKU_API;
@@ -136,7 +136,7 @@ if (budy.startsWith('>')) {
  } 
  
 if (autobio === 'TRUE'){ 
- client.updateProfileStatus(`𝚸𝚪𝚯𝐉𝚵𝐂𝚻 𝐒𝚰𝚪𝚳 is busy counting seconds 😅, sorry in advance I wont reply 😌chat here with AI 🦄`).catch(_ => _) 
+ client.updateProfileStatus(`I am busy counting seconds😅, sorry in advance for late replies 😌`).catch(_ => _) 
          } 
  
 
@@ -286,6 +286,7 @@ Below is my command list.
 ▮➣Script
 ▮➣Owner
 ▮➣Twitter
+▮➣Sirm
 ▮➣Vars
 ┬│▸
 │╰────────────··
@@ -314,7 +315,7 @@ Below is my command list.
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: { url:'https://i.imgur.com/VCwI13h.mp4'},
+                        video: { url:'https://i.imgur.com/3sHo5v3.mp4'},
                         caption: cap,
                         gifPlayback: true
                     }, {
@@ -1095,7 +1096,7 @@ case "ping": case "speed": {
 
 case "alive": { 
   
- client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/W7jRgtk.mp4' }, caption: `Hello ${m.pushName}, 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 🤖 is active\n\nActive for:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\nYou can also interact with our online chatbot built with html and JavaScript with API integration.\n\nLink is given below:\n\nhttps://quantumlab.ru.eu.org/`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/tVIkXEP.mp4' }, caption: `Hello ${m.pushName}, 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 🤖 is active\n\nActive for:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\nYou can also interact with our online chatbot built with html and JavaScript with API integration.\n\nLink is given below:\n\nhttps://quantumlab.ru.eu.org/`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
@@ -1242,7 +1243,7 @@ case "movie":
  break; 
 
 case "tutorial": case "Sirm": case "hshhs": 
- client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/PH4TAdU.mp4' }, caption: `Wow you have just mentioned my name ,you can easily reach me via +923195832822` }, {quoted: m}); 
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/cTFVB5K.mp4' }, caption: `Wow you have just mentioned my name you can easily reach me via +923195832822🥱` }, {quoted: m}); 
   
 break;
 case "twitter":
