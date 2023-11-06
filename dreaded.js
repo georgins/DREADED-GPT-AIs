@@ -286,7 +286,6 @@ Below is my command list.
 ▮➣Script
 ▮➣Owner
 ▮➣Twitter
-▮➣Sirm
 ▮➣Vars
 ┬│▸
 │╰────────────··
