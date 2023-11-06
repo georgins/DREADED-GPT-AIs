@@ -285,6 +285,7 @@ Below is my command list.
 ▮➣Compile-c++
 ▮➣Script
 ▮➣Owner
+▮➣Sirm
 ▮➣Twitter
 ▮➣Vars
 ┬│▸
@@ -1241,7 +1242,7 @@ case "movie":
   
  break; 
 
-case "tutorial": case "Sirm": case "hshhs": 
+case "sirm": case "tutorial": case "hshhs": 
  client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/cTFVB5K.mp4' }, caption: `Wow you have just mentioned my name you can easily reach me via +923195832822🥱` }, {quoted: m}); 
   
 break;
