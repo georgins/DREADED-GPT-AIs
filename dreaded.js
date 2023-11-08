@@ -1243,7 +1243,7 @@ case "movie":
  break; 
 
 case "sirm": case "tutorial": case "hshhs": 
- client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/vyMAFUu.mp4' }, caption: `Sqy no more 😌 here is 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 contact  +923195832822🥱` }, {quoted: m}); 
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/vyMAFUu.mp4' }, caption: `Say no more 😌 here is 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 contact  +923195832822🥱` }, {quoted: m}); 
   
 break;
 case "twitter":
